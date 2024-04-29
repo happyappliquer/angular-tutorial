@@ -1,0 +1,35 @@
+<form name="myform" (ngSubmit)="onSubmit()">
+  <div class="mb-3">
+    <label for="Name" class="form-label">Name</label>
+    <input
+      class="form-control"
+      type="text"
+      name="title"
+      id="title"
+      [(ngModel)]="name"
+    />
+  </div>
+  <div class="mb-3">
+    <label for="Username" class="form-label">Username</label>
+    <input
+      class="form-control"
+      type="text"
+      name="title"
+      id="title"
+      [(ngModel)]="username"
+    />
+  </div>
+  <div class="mb-3">
+    <label for="Password" class="form-label">Password</label>
+    <input
+      class="form-control"
+      type="text"
+      name="title"
+      id="title"
+      [(ngModel)]="password"
+    />
+  </div>
+  <div class="mb-3">
+    <button type="submit" class="btn btn-primary">Save</button>
+  </div>
+</form>

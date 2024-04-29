@@ -1,0 +1,36 @@
+<div *ngIf="user">
+  <div class="mb-3">
+    <label for="Name" class="form-label">Name</label>
+    <input
+      class="form-control"
+      type="text"
+      readonly
+      disabled
+      [value]="user.name"
+    />
+  </div>
+  <div class="mb-3">
+    <label for="Password" class="form-label">Password</label>
+    <input
+      class="form-control"
+      type="text"
+      readonly
+      disabled
+      [value]="user.password"
+    />
+  </div>
+  <div class="mb-3">
+    <label for="Username" class="form-label">Username</label>
+    <input
+      class="form-control"
+      type="text"
+      readonly
+      disabled
+      [value]="user.username"
+    />
+  </div>
+  <div class="mb-3">
+    <a class="btn btn-primary" [href]="'/users'"> Back </a>
+    <a class="btn btn-primary" [href]="'/users/edit/' + user.id"> Edit </a>
+  </div>
+</div>

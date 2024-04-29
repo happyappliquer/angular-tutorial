@@ -1,0 +1,45 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "title": "happy",
+      "completed": true
+    },
+    {
+      "id": "2",
+      "title": "quis ut nam facilis et officia qui",
+      "completed": false
+    },
+    {
+      "id": "3",
+      "title": "fugiat veniam minus",
+      "completed": true
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Leanne Graham",
+      "username": "Bret",
+      "password": "111111"
+    },
+    {
+      "id": "2",
+      "name": "test",
+      "username": "test",
+      "password": "1213123"
+    },
+    {
+      "id": "3",
+      "name": "OM",
+      "username": "Bret",
+      "password": "111111"
+    },
+    {
+      "id": "cf06",
+      "name": "hyvvvvv",
+      "username": "hyvvv",
+      "password": "112233"
+    }
+  ]
+}
