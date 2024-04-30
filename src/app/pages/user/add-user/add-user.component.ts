@@ -1,8 +1,8 @@
 import { Component, inject, OnInit } from '@angular/core';
-import { UserService } from '../../api-service/user.service';
+import { UserService } from '../../../api-service/user.service';
 import { HttpErrorResponse } from '@angular/common/http';
 import { Router } from '@angular/router';
-import { RespGetUser } from '../../api-service/modals/GetUser';
+import { RespGetUser } from '../../../api-service/modals/GetUser';
 import { ToastrService } from 'ngx-toastr';
 
 @Component({
@@ -22,6 +22,17 @@ export class AddUserComponent implements OnInit {
   name: string = '';
   username: string = '';
   password: string = '';
+  county: string = '';
+
+  
+  countries = [
+    {id: 1, name: "United States"},
+    {id: 2, name: "Australia"},
+    {id: 3, name: "Canada"},
+    {id: 4, name: "Brazil"},
+    {id: 5, name: "England"}
+ ];
+ selectedValue = null;
 
   onSubmit() {
     if (!this.validateForm()) {

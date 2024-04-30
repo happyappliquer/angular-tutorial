@@ -1,4 +1,9 @@
 {
+  "roles": [
+    { "id": "1", "roleName": "Admin" },
+    { "id": "2", "roleName": "Staff" },
+    { "id": "3", "roleName": "Customer" }
+  ],
   "todos": [
     {
       "id": "1",
@@ -21,25 +26,22 @@
       "id": "1",
       "name": "Leanne Graham",
       "username": "Bret",
-      "password": "111111"
+      "password": "111111",
+      "role": "1"
     },
     {
       "id": "2",
       "name": "test",
       "username": "test",
-      "password": "1213123"
+      "password": "1213123",
+      "role": "2"
     },
     {
       "id": "3",
       "name": "OM",
       "username": "Bret",
-      "password": "111111"
-    },
-    {
-      "id": "cf06",
-      "name": "hyvvvvv",
-      "username": "hyvvv",
-      "password": "112233"
+      "password": "111111",
+      "role": "3"
     }
   ]
 }

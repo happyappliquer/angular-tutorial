@@ -1,9 +1,9 @@
 import { Component, Inject, inject, OnInit } from '@angular/core';
-import { RespGetUser } from '../../api-service/modals/GetUser';
+import { RespGetUser } from '../../../api-service/modals/GetUser';
 
 import { Router } from '@angular/router';
 import { ToastrService } from 'ngx-toastr';
-import { UserService } from '../../api-service/user.service';
+import { UserService } from '../../../api-service/user.service';
 
 @Component({
   selector: 'app-user-list',

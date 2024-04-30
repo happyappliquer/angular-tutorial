@@ -2,8 +2,8 @@ import { HttpErrorResponse } from '@angular/common/http';
 import { Component, inject, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ToastrService } from 'ngx-toastr';
-import { RespGetTodo } from '../../api-service/modals/GetTodo';
-import { TodoService } from '../../api-service/todo.service';
+import { RespGetTodo } from '../../../api-service/modals/GetTodo';
+import { TodoService } from '../../../api-service/todo.service';
 
 @Component({
   selector: 'app-update-todo',

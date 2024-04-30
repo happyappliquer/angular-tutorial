@@ -8,15 +8,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ToastrModule } from 'ngx-toastr';
 
-import { TodoListComponent } from './components/todo-list/todo-list.component';
-import { TodoDetailComponent } from './components/todo-detail/todo-detail.component';
+import { TodoListComponent } from './pages/todo/todo-list/todo-list.component';
+import { TodoDetailComponent } from './pages/todo/todo-detail/todo-detail.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { AddTodoComponent } from './components/add-todo/add-todo.component';
-import { UpdateTodoComponent } from './components/update-todo/update-todo.component';
-import { UserListComponent } from './components/user-list/user-list.component';
-import { UserDetailComponent } from './components/user-detail/user-detail.component';
-import { AddUserComponent } from './components/add-user/add-user.component';
-import { UpdateUserComponent } from './components/update-user/update-user.component';
+import { AddTodoComponent } from './pages/todo/add-todo/add-todo.component';
+import { UpdateTodoComponent } from './pages/todo/update-todo/update-todo.component';
+import { UserListComponent } from './pages/user/user-list/user-list.component';
+import { UserDetailComponent } from './pages/user/user-detail/user-detail.component';
+import { AddUserComponent } from './pages/user/add-user/add-user.component';
+import { UpdateUserComponent } from './pages/user/update-user/update-user.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +25,7 @@ import { UpdateUserComponent } from './components/update-user/update-user.compon
     TodoDetailComponent,
     AddTodoComponent,
     UpdateTodoComponent,
-    
+
     UserListComponent,
     UserDetailComponent,
     AddUserComponent,

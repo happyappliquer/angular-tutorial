@@ -1,6 +1,6 @@
 import { Component, inject, OnInit } from '@angular/core';
-import { TodoService } from '../../api-service/todo.service';
-import { RespGetTodo } from '../../api-service/modals/GetTodo';
+import { TodoService } from '../../../api-service/todo.service';
+import { RespGetTodo } from '../../../api-service/modals/GetTodo';
 import { Router } from '@angular/router';
 import { ToastrService } from 'ngx-toastr';
 

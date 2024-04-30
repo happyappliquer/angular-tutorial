@@ -1,7 +1,7 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { TodoService } from '../../api-service/todo.service';
-import { RespGetTodo } from '../../api-service/modals/GetTodo';
+import { TodoService } from '../../../api-service/todo.service';
+import { RespGetTodo } from '../../../api-service/modals/GetTodo';
 import { ToastrService } from 'ngx-toastr';
 import { HttpErrorResponse } from '@angular/common/http';
 

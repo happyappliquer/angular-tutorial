@@ -1,10 +1,10 @@
 import { Component, inject, OnInit } from '@angular/core';
-import { RespGetUser } from '../../api-service/modals/GetUser';
+import { RespGetUser } from '../../../api-service/modals/GetUser';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ToastrService } from 'ngx-toastr';
-import { TodoService } from '../../api-service/todo.service';
+import { TodoService } from '../../../api-service/todo.service';
 import { HttpErrorResponse } from '@angular/common/http';
-import { UserService } from '../../api-service/user.service';
+import { UserService } from '../../../api-service/user.service';
 
 @Component({
   selector: 'app-user-detail',

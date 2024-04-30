@@ -1,8 +1,8 @@
 import { Component, inject, OnInit } from '@angular/core';
-import { RespGetUser } from '../../api-service/modals/GetUser';
+import { RespGetUser } from '../../../api-service/modals/GetUser';
 import { HttpErrorResponse } from '@angular/common/http';
 import { ActivatedRoute, Router } from '@angular/router';
-import { UserService } from '../../api-service/user.service';
+import { UserService } from '../../../api-service/user.service';
 import { ToastrService } from 'ngx-toastr';
 
 @Component({
